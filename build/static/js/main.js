@@ -44,29 +44,29 @@ if (animItems.length > 0) {
 	animOnScroll();
 } */
 
-let blocks = document.querySelectorAll('.main-subhead');
+// let blocks = document.querySelectorAll('.main-subhead');
 
-function update() {
+// function update() {
 
-		for (let i = 0; i < blocks.length; i++) {
-			let top = window.scrollY;
-			let dot = window.scrollTo(0, 200);
-			blocks[i].style.top = top + 'px';
-			if (top > dot) {
-				if (blocks[0].scrollY < 300) {
-					blocks[0].style.top = 300 + 'px';
-					break;
-				}
-				/* if (blocks[1].scrollY = 340) {
-					break;
-				}
-				if (blocks[2].scrollY = 400) {
-					break;
-				} */
-			}
+// 		for (let i = 0; i < blocks.length; i++) {
+// 			let top = window.scrollY;
+// 			let dot = window.scrollTo(0, 200);
+// 			blocks[i].style.top = top + 'px';
+// 			if (top > dot) {
+// 				if (blocks[0].scrollY < 300) {
+// 					blocks[0].style.top = 300 + 'px';
+// 					break;
+// 				}
+// 				/* if (blocks[1].scrollY = 340) {
+// 					break;
+// 				}
+// 				if (blocks[2].scrollY = 400) {
+// 					break;
+// 				} */
+// 			}
 			
-		}
+// 		}
 	
-}
-window.addEventListener('scroll', update);
-update();
+// }
+// window.addEventListener('scroll', update);
+// update();
